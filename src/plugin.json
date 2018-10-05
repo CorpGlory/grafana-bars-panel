@@ -1,0 +1,22 @@
+{
+  "type": "panel",
+  "name": "Plugin Template Name",
+  "id": "grafana-bars-panel",
+  "info": {
+    "description": "Proper bars rendering",
+    "author": {
+      "name": "CorpGlory Dev Team",
+      "url": "corpglory.com"
+    },
+    "keywords": [ ],
+    "logos": { },
+    "links": [ ],
+    "screenshots": [ ],
+    "version": "0.0.1",
+    "updated": "2018-10-05"
+  },
+  "dependencies": {
+    "grafanaVersion": "5.0.0",
+    "plugins": [ ]
+  }
+}

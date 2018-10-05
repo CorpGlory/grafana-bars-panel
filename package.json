@@ -1,0 +1,32 @@
+{
+  "name": "grafana-bars-panel",
+  "version": "0.0.1",
+  "description": "Some description",
+  "main": "dist/module.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js"
+  },
+  "keywords": [],
+  "author": "Alexey Velikiy",
+  "license": "MIT",
+  "repository": "https://github.com/CorpGlory/grafana-ico-line-plugin",
+  "devDependencies": {
+    "@types/angular": "^1.5.8",
+    "@types/d3": "^4.10.0",
+    "@types/grafana": "git+https://git@github.com/CorpGlory/types-grafana.git",
+    "@types/jquery": "^3.2.12",
+    "@types/lodash": "^4.14.74",
+    "@types/node": "^8.0.30",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "d3": "^4.10.0",
+    "loader-utils": "^1.1.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {}
+}

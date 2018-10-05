@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "none",
+    "target": "es6",
+    "rootDir": "./src",
+    "types": ["node"]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
