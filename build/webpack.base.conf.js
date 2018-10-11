@@ -14,7 +14,7 @@ function resolve(dir) {
 module.exports = {
   target: 'node',
   context: resolve('src'),
-  entry: './module.js',
+  entry: './module.ts',
   output: {
     filename: "module.js",
     path: resolve('dist'),

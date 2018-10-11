@@ -1,9 +1,9 @@
 {
   "type": "panel",
-  "name": "Plugin Template Name",
+  "name": "Bars",
   "id": "grafana-bars-panel",
   "info": {
-    "description": "Proper bars rendering",
+    "description": "The panel you need to show bars in Grafana",
     "author": {
       "name": "CorpGlory Dev Team",
       "url": "corpglory.com"
