@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:3000/d/1xC2cBJik/bars-test",
+      "sourceMaps": true,
+      "pathMapping": {
+        "/public/plugins/grafana-bars-panel": "${workspaceFolder}/dist"
+      },
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "webpack:///./*": "${webRoot}/src/*"
+      }
+    }
+  ]
+}
