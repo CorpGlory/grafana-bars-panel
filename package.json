@@ -8,8 +8,8 @@
     "dev": "webpack --config build/webpack.dev.conf.js"
   },
   "keywords": [],
-  "author": "Alexey Velikiy",
-  "license": "MIT",
+  "author": "CorpGlory Dev Team",
+  "license": "Apache-2.0",
   "repository": "https://github.com/CorpGlory/grafana-ico-line-plugin",
   "devDependencies": {
     "@types/angular": "^1.5.8",

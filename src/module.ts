@@ -1,4 +1,4 @@
-import { MetricsPanelCtrl, loadPluginCss } from 'grafana/app/plugins/sdk';
+import { MetricsPanelCtrl } from 'grafana/app/plugins/sdk';
 import { appEvents } from 'grafana/app/core/core';
 
 import * as _ from 'lodash';
@@ -10,7 +10,6 @@ class Ctrl extends MetricsPanelCtrl {
 
   private _panelContent: HTMLElement;
   private _graphHolder: HTMLElement;
-
 
   private _seriesList: any;
 
